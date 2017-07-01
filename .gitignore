@@ -1,3 +1,11 @@
 db.sqlite3
 __pycache__
 TaskBuster.sublime-workspace
+functional_tests/all_users0.py
+functional_tests/all_users2.py
+functional_tests/teest_all_users1.py
+taskbuster/templates/taskbuster/index1.html
+.coverage
+htmlcov
+
+

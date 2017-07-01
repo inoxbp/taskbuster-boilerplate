@@ -1,0 +1,7 @@
+Django==1.8.5
+EasyProcess==0.2.3
+PyVirtualDisplay==0.2.1
+coverage==4.4.1
+psycopg2==2.7.1
+selenium==3.4.3
+

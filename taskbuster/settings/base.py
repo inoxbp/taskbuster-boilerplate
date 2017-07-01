@@ -87,17 +87,24 @@ DATABASES = {
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
-
+from django.utils.translation import ugettext_lazy as _
 LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
 USE_I18N = True
+LANGUAGES = (
+    ('en', _('English')),
+    ('sr', _('Serbian - Latin')),
+)
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
 
+# Localization
 USE_L10N = True
 
+# Time Zone support
 USE_TZ = True
-
+TIME_ZONE = 'Europe/Belgrade'
+# TIME_ZONE = 'UTC'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
