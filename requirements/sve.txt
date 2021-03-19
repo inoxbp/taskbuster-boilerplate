@@ -9,7 +9,7 @@ pytz==2017.2
 
 Babel==2.4.0
 Django==1.8.5
-Jinja2==2.9.6
+Jinja2==2.11.3
 MarkupSafe==1.0
 Pygments==2.2.0
 Sphinx==1.6.2
